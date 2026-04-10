@@ -4,7 +4,7 @@
           cart badge, path resolution, missing helpers
    ═══════════════════════════════════════════════════════ */
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = 'https://print-x-frontend.onrender.com/api';
 
 /* ── Auth Helpers ────────────────────────────────────────*/
 const Auth = {
