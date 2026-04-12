@@ -802,7 +802,7 @@
 <script src="../assets/js/script.js"></script>
 <script>
 /* Override Auth object to use separate localStorage for admin */
-const Auth = {
+var Auth = {
   getAccess()  { return localStorage.getItem('px_admin_access'); },
   getRefresh() { return localStorage.getItem('px_admin_refresh'); },
   getUser() {
