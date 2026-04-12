@@ -3,7 +3,7 @@
    Updated: JWT auth (Bearer tokens), admin via is_admin flag
    ═══════════════════════════════════════════════════════ */
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = 'https://print-x-backend.onrender.com/api';
 
 /* ── Auth Helpers ────────────────────────────────────────*/
 const Auth = {
